@@ -1,7 +1,7 @@
 {
     "name": "BestApp",
     "short_name": "BestApp",
-    "start_url": "/",
+    "start_url": "index.html",
     "scope": "/",
     "background_color": "#ffffff",
     "theme_color": "#fc50a3",
