@@ -5,6 +5,7 @@
     "background_color": "#ffffff",
     "theme_color": "#fc50a3",
     "display": "standalone",
+    "scope": "/",
     "icons": [
         {
             "src": "./img/icons/bestappicon32x10.png",
