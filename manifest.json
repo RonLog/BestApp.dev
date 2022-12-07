@@ -1,11 +1,11 @@
 {
     "name": "BestApp",
     "short_name": "BestApp",
-    "start_url": "index.html",
+    "start_url": "/",
+    "scope": "/",
     "background_color": "#ffffff",
     "theme_color": "#fc50a3",
     "display": "standalone",
-    "scope": "/",
     "icons": [
         {
             "src": "img/icons/icon-72x72.png",
