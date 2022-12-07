@@ -8,10 +8,20 @@
       src="https://kit.fontawesome.com/a131e7076c.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="shortcut icon" href="./img/appicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/appicon.png" type="image/x-icon" />
+    <meta name="theme-color" content="#fc50a3" />
+    <link rel="manifest" href="manifest.json" />
 
-    <style></style>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js").then(function () {
+          console.log("Service Worker Registered");
+        });
+      } else {
+        console.log("Not Supported");
+      }
+    </script>
   </head>
 
   <body>

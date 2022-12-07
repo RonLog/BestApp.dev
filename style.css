@@ -386,8 +386,8 @@ nav label {
 #reviev:checked~nav .reviev,
 #prise:checked~nav .prise,
 #contect:checked~nav .contect {
-    background-color: rgb(252, 80, 163);
-    color: white;
+    background-color: #fc50a3;
+    color: #ffffff;
     border-radius: 20px;
 }
 

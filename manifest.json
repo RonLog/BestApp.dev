@@ -1,0 +1,30 @@
+{
+    "name": "BestApp",
+    "short_name": "BestApp",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#fc50a3",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "./img/icons/bestappicon32x10.png",
+            "sizes": "32x10",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/bestappicon63x19.png",
+            "sizes": "63x19",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/bestappicon113x34.png",
+            "sizes": "113x34",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/bestappicon512x514.png",
+            "sizes": "512x514",
+            "type": "image/png"
+        }
+    ]
+}
