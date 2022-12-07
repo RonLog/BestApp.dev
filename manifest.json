@@ -1,7 +1,7 @@
 {
     "name": "BestApp",
     "short_name": "BestApp",
-    "start_url": "/",
+    "start_url": "index.html",
     "background_color": "#ffffff",
     "theme_color": "#fc50a3",
     "display": "standalone",
@@ -23,7 +23,7 @@
         },
         {
             "src": "./img/icons/bestappicon512x514.png",
-            "sizes": "512x514",
+            "sizes": "512x154",
             "type": "image/png"
         }
     ]
